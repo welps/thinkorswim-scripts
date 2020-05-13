@@ -15,3 +15,15 @@ Unfortunately thinkscript is pegged to eastern time and therefore affected by da
 **Configuration example**
 
 ![Visual of configuration for AddMarketHoursUTC](images/addmarkethours-config.png)
+
+## [AfterHoursRelativePriceMovement](AfterHoursRelativePriceMovement.ts)
+
+Tracks the price difference from afterhour volume relative to yesterday's close
+
+This was created to visually confirm if certain stock prices were primarily driven from afterhour movements over longer periods of time
+
+Can be overlaid with AddMarketHoursUTC to visually see correlation from international market open/closes
+
+**Visual example**
+
+![Visual for AfterHoursRelativePriceMovement](images/afterhoursprice-chart.png)
